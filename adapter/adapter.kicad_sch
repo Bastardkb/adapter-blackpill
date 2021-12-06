@@ -1276,6 +1276,7 @@
   (no_connect (at 163.195 160.655) (uuid 76cf50fd-14f9-47e8-ae67-9c9cceafb2c6))
   (no_connect (at 137.795 168.275) (uuid 78f1ef45-1569-4184-9d22-f847e88b5fe5))
   (no_connect (at 205.994 35.941) (uuid 8cc321f3-8294-4360-9104-1c7367888312))
+  (no_connect (at 163.83 35.052) (uuid 8e76d568-7807-4937-9882-f5c4ffa1a021))
   (no_connect (at 163.83 62.865) (uuid a27bdb4b-5426-4802-b9db-f0d193421a53))
   (no_connect (at 163.83 65.405) (uuid a27bdb4b-5426-4802-b9db-f0d193421a54))
   (no_connect (at 163.195 153.035) (uuid bea704d5-89d2-4173-b270-76eaa9a6b98e))
@@ -2694,24 +2695,6 @@
     (pin "1" (uuid 92271aeb-cab4-4dc5-bec1-64edaf3c89e1))
   )
 
-  (symbol (lib_id "power:+5V") (at 163.83 34.925 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid c302c14f-0f07-4722-9635-4326a484712c)
-    (property "Reference" "#PWR0101" (id 0) (at 160.02 34.925 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 167.005 35.404 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 163.83 34.925 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 163.83 34.925 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8e83a8a0-9db2-4a97-9749-9a515e3046d7))
-  )
-
   (symbol (lib_id "power:+3.3V") (at 36.83 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c44f1744-aa6e-4012-a694-27752b75ea00)
@@ -3062,9 +3045,6 @@
   )
 
   (symbol_instances
-    (path "/c302c14f-0f07-4722-9635-4326a484712c"
-      (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/cf564857-3c48-44d0-a2b1-960c8d42cb17"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )

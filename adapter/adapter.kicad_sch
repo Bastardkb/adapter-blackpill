@@ -2241,7 +2241,7 @@
     (property "Value" "Ribbon" (id 1) (at 222.885 159.258 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "customs:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 231.775 149.733 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 231.775 149.733 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 231.775 149.733 0)
@@ -3168,7 +3168,7 @@
       (reference "J5") (unit 1) (value "Trackball") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/45f0799c-408b-4e0d-8bc6-8ee6ccaf8219"
-      (reference "J6") (unit 1) (value "Ribbon") (footprint "customs:PinHeader_1x05_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "Ribbon") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/7bffcea9-b23e-4698-8571-09d538a5c739"
       (reference "J7") (unit 1) (value "Trackball") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")

@@ -11,16 +11,17 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 | Pin No. | Pin  |      Function      |
 | ------- | ---- | ------------------ |
 | 11      | PA1  | TIM2_CH2 (RGB)     |
-| 14      | PA4  | SPI1_NSS EEPROM    |
-| 14      | PA15 | SPI1_NSS TRACKBALL |
-| 15      | PA5  | SPI1_SCK           |
-| 16      | PA6  | SPI1_MISO          |
-| 17      | PA7  | SPI1_MOSI          |
-| 30      | PA9  | USART1_TX (SERIAL) |
+| 3       | PA14 | SPI1 CS TRACKBALL  |
+| 10      | PA15 | SPI1 CS USER       |
+| 14      | PA4  | SPI1 CS EEPROM     |
+| 15      | PA5  | SPI1 SCK           |
+| 16      | PA6  | SPI1 MISO          |
+| 17      | PA7  | SPI1 MOSI          |
+| 30      | PA9  | USART1 TX (SERIAL) |
 | 32      | PA11 | USB_OTG_FS_DM      |
 | 33      | PA12 | USB_OTG_FS_DP      |
-| 42      | PB6  | I2C1_SCL           |
-| 43      | PB7  | I2C1_SDA           |
+| 42      | PB6  | I2C1 SCL           |
+| 43      | PB7  | I2C1 SDA           |
 
 
 # DMA channels

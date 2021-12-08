@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid 2351395d-af3e-422b-bc82-f8d9a2825ae0)
 
@@ -9,6 +9,7 @@
     (date "2021-12-02")
     (rev "0.1")
     (company "Bastardkb x KarlK90")
+    (comment 1 "Licensed under CERN-OHL-W v2")
   )
 
   (lib_symbols
@@ -1372,7 +1373,7 @@
   (no_connect (at 163.83 35.052) (uuid 8e76d568-7807-4937-9882-f5c4ffa1a021))
   (no_connect (at 117.475 160.655) (uuid b7810614-f661-4ae0-b189-1f1bfe004cff))
   (no_connect (at 118.11 37.465) (uuid bb6405bd-1520-4cab-aa3b-4f29c17d728b))
-  (no_connect (at 163.83 42.545) (uuid bb6405bd-1520-4cab-aa3b-4f29c17d728b))
+  (no_connect (at 163.83 42.545) (uuid bb6405bd-1520-4cab-aa3b-4f29c17d728c))
   (no_connect (at 163.195 153.035) (uuid bea704d5-89d2-4173-b270-76eaa9a6b98e))
   (no_connect (at 118.11 52.705) (uuid c27d4b59-d41d-4e6e-8e4c-5d33b27f17e0))
   (no_connect (at 118.11 55.245) (uuid c27d4b59-d41d-4e6e-8e4c-5d33b27f17e1))

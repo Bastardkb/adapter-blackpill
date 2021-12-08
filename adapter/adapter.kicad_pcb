@@ -43,6 +43,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
+    (grid_origin 102 59.6)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -5764,30 +5765,38 @@
 
   (gr_line (start 131.171079 29.094111) (end 132.19019 29.094111) (layer "B.SilkS") (width 0.12) (tstamp 019dcff3-9625-431f-a55c-6e65c368146d))
   (gr_arc (start 132.971079 35.715189) (mid 132.740291 36.25844) (end 132.200001 36.496078) (layer "B.SilkS") (width 0.12) (tstamp 07cb4619-e5db-4ba9-9e24-f45954d8da3b))
+  (gr_line (start 117.642083 35.758781) (end 117.642083 29.933781) (layer "B.SilkS") (width 0.12) (tstamp 142edceb-a94e-4783-a6e1-0f1d99844c8a))
+  (gr_arc (start 115.071005 29.918592) (mid 115.301793 29.375341) (end 115.842083 29.137703) (layer "B.SilkS") (width 0.12) (tstamp 195828b1-b90a-4af2-934f-095afa0cde02))
   (gr_arc (start 131.18089 36.496078) (mid 130.628996 36.256408) (end 130.4 35.7) (layer "B.SilkS") (width 0.12) (tstamp 1d660b26-ca9c-4510-9dc4-d80a878e131e))
+  (gr_line (start 115.071005 29.918592) (end 115.071004 35.743592) (layer "B.SilkS") (width 0.12) (tstamp 29ba4353-0bef-4010-9b5f-d98fbc64dac3))
+  (gr_line (start 116.871005 36.53967) (end 115.851894 36.53967) (layer "B.SilkS") (width 0.12) (tstamp 2d485b69-7b1f-417c-a724-37d9316b4f7d))
   (gr_arc (start 132.19019 29.094111) (mid 132.742084 29.333781) (end 132.97108 29.890189) (layer "B.SilkS") (width 0.12) (tstamp 3e796faa-1bd4-4a92-9357-c6f76e05cca7))
+  (gr_arc (start 115.851894 36.53967) (mid 115.3 36.3) (end 115.071004 35.743592) (layer "B.SilkS") (width 0.12) (tstamp 494eca06-2f6f-49bc-b144-0b80af2c2ff1))
   (gr_line (start 130.400001 29.875) (end 130.4 35.7) (layer "B.SilkS") (width 0.12) (tstamp 62cb52de-e015-4830-8125-95d42988819f))
   (gr_arc (start 130.400001 29.875) (mid 130.630789 29.331749) (end 131.171079 29.094111) (layer "B.SilkS") (width 0.12) (tstamp 7301ff8a-f62a-4910-ac4d-108ed4c6aadb))
+  (gr_arc (start 116.861194 29.137703) (mid 117.413088 29.377373) (end 117.642084 29.933781) (layer "B.SilkS") (width 0.12) (tstamp 7c70d61b-4732-4b3b-be5b-9d54a7c48a84))
+  (gr_line (start 115.842083 29.137703) (end 116.861194 29.137703) (layer "B.SilkS") (width 0.12) (tstamp 88fae2df-4c0c-41b4-af56-0d728ad246f8))
   (gr_line (start 132.971079 35.715189) (end 132.971079 29.890189) (layer "B.SilkS") (width 0.12) (tstamp 9d799d21-0a03-43d0-b668-d49fc27da5a1))
+  (gr_arc (start 117.642083 35.758781) (mid 117.411295 36.302032) (end 116.871005 36.53967) (layer "B.SilkS") (width 0.12) (tstamp c4a8317f-0ec5-42b5-bb36-e799c3b9465f))
   (gr_line (start 132.200001 36.496078) (end 131.18089 36.496078) (layer "B.SilkS") (width 0.12) (tstamp cef985be-5898-4b81-8259-bc2f8a6a45ef))
-  (gr_line (start 116.327011 36.135878) (end 115.3079 36.135878) (layer "F.SilkS") (width 0.12) (tstamp 01654fea-db91-471c-882e-bd5216ca8bd7))
+  (gr_line (start 116.969496 36.550159) (end 115.950385 36.550159) (layer "F.SilkS") (width 0.12) (tstamp 01654fea-db91-471c-882e-bd5216ca8bd7))
   (gr_arc (start 131.171079 36.496078) (mid 130.630789 36.25844) (end 130.400001 35.715189) (layer "F.SilkS") (width 0.12) (tstamp 0245e63d-10b8-4cd7-966b-1b89fec6d269))
   (gr_line (start 130.400001 29.890189) (end 130.400001 35.715189) (layer "F.SilkS") (width 0.12) (tstamp 130e820d-cf6e-43dc-8280-5d4f5588f8ea))
   (gr_arc (start 132.200001 29.094111) (mid 132.740291 29.331749) (end 132.971079 29.875) (layer "F.SilkS") (width 0.12) (tstamp 1c7662e9-aea7-4f6b-a250-3f23dcaacd68))
-  (gr_arc (start 117.107901 35.3398) (mid 116.878905 35.896208) (end 116.327011 36.135878) (layer "F.SilkS") (width 0.12) (tstamp 35b082be-c98c-4744-af1a-17339f58c5c3))
+  (gr_arc (start 117.750386 35.754081) (mid 117.52139 36.310489) (end 116.969496 36.550159) (layer "F.SilkS") (width 0.12) (tstamp 35b082be-c98c-4744-af1a-17339f58c5c3))
   (gr_rect (start 90.351 32.28) (end 82.241 16.28) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 421a05ab-8020-41cd-ad83-3742c84d8136))
-  (gr_arc (start 116.336822 28.733911) (mid 116.877112 28.971549) (end 117.1079 29.5148) (layer "F.SilkS") (width 0.12) (tstamp 47379021-9033-4b42-872c-68f0e235f58b))
+  (gr_arc (start 116.979307 29.148192) (mid 117.519597 29.38583) (end 117.750385 29.929081) (layer "F.SilkS") (width 0.12) (tstamp 47379021-9033-4b42-872c-68f0e235f58b))
   (gr_rect (start 165.811 32.18) (end 157.701 16.18) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 494bafb3-b287-40c7-b687-edd26c5d5b80))
   (gr_line (start 131.18089 29.094111) (end 132.200001 29.094111) (layer "F.SilkS") (width 0.12) (tstamp 52b59f3e-0bb8-443e-ad58-9b6cb4238da2))
   (gr_arc (start 132.97108 35.7) (mid 132.742084 36.256408) (end 132.19019 36.496078) (layer "F.SilkS") (width 0.12) (tstamp 68e71976-648f-4506-b6b8-f84d0b137c75))
   (gr_line (start 132.19019 36.496078) (end 131.171079 36.496078) (layer "F.SilkS") (width 0.12) (tstamp 813e94c3-3fa9-4641-8ea7-ff7bb2268d76))
   (gr_arc (start 130.4 29.890189) (mid 130.628996 29.333781) (end 131.18089 29.094111) (layer "F.SilkS") (width 0.12) (tstamp 864b1784-c905-431c-9cc3-f65810ae7782))
-  (gr_line (start 115.317711 28.733911) (end 116.336822 28.733911) (layer "F.SilkS") (width 0.12) (tstamp 9ad071a8-94ef-4ab6-8422-56e583840284))
-  (gr_arc (start 114.536821 29.529989) (mid 114.765817 28.973581) (end 115.317711 28.733911) (layer "F.SilkS") (width 0.12) (tstamp aeef4aff-abb1-4907-ba17-137c2b00aec2))
-  (gr_line (start 117.107901 35.3398) (end 117.1079 29.5148) (layer "F.SilkS") (width 0.12) (tstamp b62162c9-aaf2-4dea-af17-01c8e6f4d5ac))
+  (gr_line (start 115.960196 29.148192) (end 116.979307 29.148192) (layer "F.SilkS") (width 0.12) (tstamp 9ad071a8-94ef-4ab6-8422-56e583840284))
+  (gr_arc (start 115.179306 29.94427) (mid 115.408302 29.387862) (end 115.960196 29.148192) (layer "F.SilkS") (width 0.12) (tstamp aeef4aff-abb1-4907-ba17-137c2b00aec2))
+  (gr_line (start 117.750386 35.754081) (end 117.750385 29.929081) (layer "F.SilkS") (width 0.12) (tstamp b62162c9-aaf2-4dea-af17-01c8e6f4d5ac))
   (gr_line (start 132.97108 35.7) (end 132.971079 29.875) (layer "F.SilkS") (width 0.12) (tstamp d49d19e0-a1cd-484f-8037-f6fe6934ff73))
-  (gr_arc (start 115.3079 36.135878) (mid 114.76761 35.89824) (end 114.536822 35.354989) (layer "F.SilkS") (width 0.12) (tstamp dcb9718d-e61e-400b-9cb0-7018bf6cfced))
-  (gr_line (start 114.536822 29.529989) (end 114.536822 35.354989) (layer "F.SilkS") (width 0.12) (tstamp e176d5f5-3ba9-47d4-a8d8-9e2c8f00776f))
+  (gr_arc (start 115.950385 36.550159) (mid 115.410095 36.312521) (end 115.179307 35.76927) (layer "F.SilkS") (width 0.12) (tstamp dcb9718d-e61e-400b-9cb0-7018bf6cfced))
+  (gr_line (start 115.179307 29.94427) (end 115.179307 35.76927) (layer "F.SilkS") (width 0.12) (tstamp e176d5f5-3ba9-47d4-a8d8-9e2c8f00776f))
   (gr_line (start 95.889752 38.639294) (end 106.382645 38.639294) (layer "Edge.Cuts") (width 0.2) (tstamp 03b3ce17-a450-4c69-a77c-7459a49655f2))
   (gr_arc (start 113.053858 52.637883) (mid 112.969937 52.398506) (end 112.94178 52.146413) (layer "Edge.Cuts") (width 0.2) (tstamp 07181e6a-f77b-4f32-962d-781fec659922))
   (gr_arc (start 133.200005 82.903929) (mid 133.849047 81.882606) (end 135.048781 82.040704) (layer "Edge.Cuts") (width 0.2) (tstamp 09a447ea-a474-464d-93b1-2e75823d2422))
@@ -5896,9 +5905,6 @@
   (gr_text "5V" (at 96.158055 73.4822) (layer "B.SilkS") (tstamp 01cc6591-af16-4a59-8da4-5f25f785215d)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "2021 QUENTIN LEBASTARD" (at 86.360001 61.69) (layer "B.SilkS") (tstamp 098b560f-3edc-4ddd-8ce3-e78a10172b73)
-    (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
-  )
   (gr_text "C5" (at 141.097 81.087291) (layer "B.SilkS") (tstamp 0f35db44-6a9f-4bf4-b1af-d94d2a15ce07)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
@@ -5911,14 +5917,14 @@
   (gr_text "GND" (at 152.75 86.18) (layer "B.SilkS") (tstamp 1e9f7b4c-bd2e-46e1-b57a-7d6af2004343)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "CHARYBDIS HOLDER" (at 111.952 47 90) (layer "B.SilkS") (tstamp 1ee36a2e-ea69-421d-8daa-1fc06f82aada)
-    (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
-  )
   (gr_text "R4" (at 111.3028 73.467291) (layer "B.SilkS") (tstamp 223ca66a-84dd-4155-b4a1-0255a2ff8310)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Have a fun build" (at 172.379999 69.26) (layer "B.SilkS") (tstamp 27246d56-3fea-4265-ab7e-9d91f5c307e7)
-    (effects (font (size 1.2 1.2) (thickness 0.2)) (justify mirror))
+  (gr_text "GND" (at 162.104762 25.45) (layer "B.SilkS") (tstamp 22f67605-ae4b-4668-bcff-c2f4f9a9a79d)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "BLACKPILL HOLDER 0.1" (at 112.15 35.690477 -90) (layer "B.SilkS") (tstamp 240ab46c-4d51-49d3-bf0f-aec00f5f8573)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text "R1" (at 103.730423 76.0476) (layer "B.SilkS") (tstamp 29361650-d42a-45b4-818c-fa0e4daf3373)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
@@ -5932,6 +5938,9 @@
   (gr_text "C6" (at 111.3028 83.627291) (layer "B.SilkS") (tstamp 3b4c77ee-42e3-406d-904c-4239dbc98133)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "RGB" (at 84 41.35 90) (layer "B.SilkS") (tstamp 3f3e87f6-2660-43c3-9386-8be930b39673)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "C3" (at 146.685 73.4822) (layer "B.SilkS") (tstamp 40a0affa-77b0-4a27-8550-a94b4b5a57e7)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
@@ -5939,6 +5948,12 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text "SC" (at 96.215198 81.1022) (layer "B.SilkS") (tstamp 4834083a-5400-48c8-84e9-8eb7ed4d5cb8)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "5V" (at 162.6 29.55) (layer "B.SilkS") (tstamp 48efec4d-0bd0-49ef-8e38-05fc03dc673a)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "5V" (at 87.157143 29.45) (layer "B.SilkS") (tstamp 4bf9e71d-ae3d-45c5-af50-0f59f811ebc1)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text "SERIAL" (at 161.761 33.274) (layer "B.SilkS") (tstamp 58ef729b-8bd4-4ef7-84ce-a9992b636c9d)
@@ -5962,6 +5977,9 @@
   (gr_text "R3" (at 111.3028 76.007291) (layer "B.SilkS") (tstamp 6838f93e-0c55-4c16-9724-9f6078f39233)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "S" (at 87.5 22.45) (layer "B.SilkS") (tstamp 6f7f6db1-0214-4f8c-a488-a4e34a145a48)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "MISO" (at 152.75 83.64) (layer "B.SilkS") (tstamp 72b84ae9-1b52-4fe2-83b5-192888f69250)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
@@ -5980,16 +5998,28 @@
   (gr_text "5V" (at 159.258 38.989) (layer "B.SilkS") (tstamp 7d2252f2-7972-4c91-ba3a-c0a82d4efc97)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "2021 QUENTIN LEBASTARD\nBASTARD KEYBOARDS" (at 124.3 79.65) (layer "B.SilkS") (tstamp 7fd961fb-bb58-4491-8531-09c2efc9ff76)
+    (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
+  )
   (gr_text "C1" (at 146.685 81.1022) (layer "B.SilkS") (tstamp 81ee5191-b0d7-4f4a-b688-fcd4ca00b22d)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text "R4" (at 141.097 73.467291) (layer "B.SilkS") (tstamp 9efd5271-2eb3-4be1-b493-7b4225442a97)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "RIGHT" (at 116.268504 32.908782 -90) (layer "B.SilkS") (tstamp a0297392-d30c-464c-b404-21f8e58b1497)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
+  )
   (gr_text "C4" (at 141.097 78.547291) (layer "B.SilkS") (tstamp a0815115-6b4e-417f-b430-75b43e7ad7c2)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text "C2" (at 146.685 78.5622) (layer "B.SilkS") (tstamp a3c7ccce-5e8a-4dd0-b95b-8e959b44ba0b)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "BASTARDKB x KARLK90" (at 113.6 35.747619 270) (layer "B.SilkS") (tstamp af859deb-a85d-4581-8929-009f90e8e404)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "5V" (at 88.545238 39.029) (layer "B.SilkS") (tstamp bbd44445-5471-48ae-9d8a-4d1b499d3680)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text "C4" (at 111.3028 78.547291) (layer "B.SilkS") (tstamp bd187872-e68c-46ca-a54e-f197eccded5e)
@@ -5998,8 +6028,11 @@
   (gr_text "C1" (at 103.730423 81.1276) (layer "B.SilkS") (tstamp c186c5e9-f979-41f8-8938-01e0f804f50b)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "RGB" (at 85.59 48.07) (layer "B.SilkS") (tstamp c5f13a7a-1fca-4c81-b349-fb418212456a)
-    (effects (font (size 1.2 1.2) (thickness 0.15)) (justify mirror))
+  (gr_text "S" (at 162.942857 22.55) (layer "B.SilkS") (tstamp c691c8e6-0988-4588-b053-eb90baac3deb)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "UPDATE" (at 101.1 70.3072) (layer "B.SilkS") (tstamp c769d5d1-dc59-4011-b47d-d01271f44c53)
+    (effects (font (size 1 1) (thickness 0.2032)) (justify mirror))
   )
   (gr_text "CS" (at 152.75 76.02) (layer "B.SilkS") (tstamp c7849c2a-4f81-4cff-b659-73ffa9176822)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
@@ -6016,7 +6049,13 @@
   (gr_text "SCLK" (at 152.75 81.1) (layer "B.SilkS") (tstamp dc39c0e6-e512-494d-86b3-b770caf28e03)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "DIN" (at 88.830953 44.109) (layer "B.SilkS") (tstamp dd455e21-0e95-494e-b413-6b2b57bf04f9)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "BASTARDKB x KARLK90" (at 135.95 35.05 270) (layer "B.SilkS") (tstamp e47cf1ce-6a2b-4cad-8807-11fad934cb8d)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "SERIAL" (at 86.403445 33.254816) (layer "B.SilkS") (tstamp e5e3d447-fc89-4904-a738-57888923a7a2)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text "MOSI" (at 96.881864 78.5622) (layer "B.SilkS") (tstamp e8bb9c77-4cb0-4ee7-b690-29f1809c54de)
@@ -6028,7 +6067,13 @@
   (gr_text "C2" (at 103.730423 78.5876) (layer "B.SilkS") (tstamp f7a5907f-e642-4672-ac82-b9061028ed45)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "GND" (at 86.661905 25.65) (layer "B.SilkS") (tstamp f8072a27-e3b7-45c6-aa4d-49adc7112791)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "C3" (at 103.730423 73.5076) (layer "B.SilkS") (tstamp f8900150-e04b-498a-84db-cb1f582d67b3)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "GND" (at 89.040476 41.569) (layer "B.SilkS") (tstamp fab607cd-9942-4ab0-8baa-f0cd4ca1e00a)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text "LEFT" (at 131.6 32.575 -90) (layer "B.SilkS") (tstamp fb35e0ea-1f53-4bbb-8922-1a4b2daf8191)
@@ -6046,9 +6091,6 @@
   (gr_text "R3" (at 111.3028 76.0222) (layer "F.SilkS") (tstamp 039b29f0-7ca5-486e-afc9-d44bac5a6e6e)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "CHARYBDIS HOLDER" (at 111.94 47.05 90) (layer "F.SilkS") (tstamp 06d6d3c5-55fe-4547-9495-5476acf7d38f)
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-  )
   (gr_text "SERIAL" (at 161.757555 33.269184) (layer "F.SilkS") (tstamp 0990d199-6ec3-458d-b654-668c85caadcb)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
@@ -6058,7 +6100,13 @@
   (gr_text "SS" (at 96.126293 76.0222) (layer "F.SilkS") (tstamp 0f820b1e-536b-4078-80cd-8c1ff046f391)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
+  (gr_text "2021 QUENTIN LEBASTARD\nBASTARD KEYBOARDS" (at 124.084983 79.750543) (layer "F.SilkS") (tstamp 1366a3b4-a0f2-486f-ad7d-bc13b9074e54)
+    (effects (font (size 0.8 0.8) (thickness 0.12)))
+  )
   (gr_text "GND" (at 162.161905 25.38) (layer "F.SilkS") (tstamp 17ebddd8-6c5b-4c14-8bc6-01ba28e8e09d)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text "RGB" (at 83.945735 41.363198 -90) (layer "F.SilkS") (tstamp 188c49ef-bacb-40bf-860d-41c294f4b02f)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "C2" (at 103.7336 78.5876) (layer "F.SilkS") (tstamp 1919c197-5e81-49b6-b46b-86bcfb5aac45)
@@ -6079,11 +6127,11 @@
   (gr_text "MOSI" (at 96.812007 78.5622) (layer "F.SilkS") (tstamp 2c0b3ed8-8953-401a-b2bc-ab417782f356)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "S" (at 163 22.48) (layer "F.SilkS") (tstamp 344c4ae3-6fdf-434b-b0c6-542254c0bce7)
+  (gr_text "3V3" (at 111.25 68.85) (layer "F.SilkS") (tstamp 2d6678a6-4e64-411f-89e7-fc440025f683)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "RGB" (at 85.64 48.06) (layer "F.SilkS") (tstamp 34ca44d0-bf7a-4e92-8ade-d7aa24b68525)
-    (effects (font (size 1.2 1.2) (thickness 0.15)))
+  (gr_text "S" (at 163 22.48) (layer "F.SilkS") (tstamp 344c4ae3-6fdf-434b-b0c6-542254c0bce7)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "LEFT" (at 131.77108 32.575 90) (layer "F.SilkS") (tstamp 3570ba1f-f9a8-4fe6-bfd9-96af45b5a364)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
@@ -6093,9 +6141,6 @@
   )
   (gr_text "SC" (at 96.145341 81.1022) (layer "F.SilkS") (tstamp 365b1138-29e4-46bb-9144-89175fcd2cbf)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
-  (gr_text "2021 QUENTIN LEBASTARD" (at 123.4 96.3) (layer "F.SilkS") (tstamp 39b3e399-6dad-4cb5-8490-811eef8de00e)
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
   (gr_text "TRACKBALL" (at 90.8812 79.837791 90) (layer "F.SilkS") (tstamp 3bea309b-4b33-4a8e-8152-1c8d7793b185)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
@@ -6113,6 +6158,9 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "RGB" (at 163.957 41.656 -270) (layer "F.SilkS") (tstamp 44ca9226-c726-47f4-9241-5fc6248e5db3)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text "SERIAL" (at 86.4 33.25) (layer "F.SilkS") (tstamp 4825d1d9-f021-4ba0-9700-b6a308133e3e)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "C6" (at 111.3028 83.6422) (layer "F.SilkS") (tstamp 4bab10ef-aad4-4650-8c74-497add138005)
@@ -6136,10 +6184,16 @@
   (gr_text "CS" (at 152.75 76.031382) (layer "F.SilkS") (tstamp 6ef5652c-9e34-42dd-802f-396ccb935947)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "RIGHT" (at 115.910401 32.50499 90) (layer "F.SilkS") (tstamp 71261ac9-43bb-4ae1-97f1-38ced928f50b)
+  (gr_text "RIGHT" (at 116.552886 32.919271 90) (layer "F.SilkS") (tstamp 71261ac9-43bb-4ae1-97f1-38ced928f50b)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
   (gr_text "3V3" (at 157.226 68.8) (layer "F.SilkS") (tstamp 7e99fe79-a426-45a7-8da3-6f0cc00fadc2)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text "GND" (at 89.045238 41.529) (layer "F.SilkS") (tstamp 81817e5c-191f-439f-9cb0-a2fb6741093c)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text "VB" (at 91.184 68.85) (layer "F.SilkS") (tstamp 824812c7-abb9-4411-9be5-120b14ae778b)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "GITHUB.COM/BASTARDKB" (at 134.55 34.75 90) (layer "F.SilkS") (tstamp 83a0af08-0788-496b-b5a2-dc27514fcb3a)
@@ -6151,7 +6205,13 @@
   (gr_text "GND" (at 152.75 86.191382) (layer "F.SilkS") (tstamp 8b7efba5-3103-45b2-8273-3e2da9c747c9)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
+  (gr_text "5V" (at 88.55 39) (layer "F.SilkS") (tstamp 8eb54c44-a84a-441b-a1f6-a4ab6c5efc94)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
   (gr_text "MISO" (at 152.75 83.651382) (layer "F.SilkS") (tstamp 905d212d-160a-46e8-8fd5-612bdd1b1b8a)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text "GITHUB.COM/BASTARDKB" (at 112.2 35.447619 90) (layer "F.SilkS") (tstamp 98302047-d826-423f-a8ff-d554c5e44659)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "C5" (at 111.3028 81.1022) (layer "F.SilkS") (tstamp 98b77b73-953b-478f-b3e3-da6703cc807c)
@@ -6169,10 +6229,16 @@
   (gr_text "GND" (at 96.583436 86.1822) (layer "F.SilkS") (tstamp a49d32a0-d0ba-45c0-818a-cb4e025a22f4)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
+  (gr_text "BASTARDKB.COM" (at 113.75 38 90) (layer "F.SilkS") (tstamp a511fca0-5dfd-4d6d-ab51-5c36f0bd8ab6)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
   (gr_text "C2" (at 146.688177 78.5622) (layer "F.SilkS") (tstamp a6474d3d-72fd-4840-a573-dcfb5c5bb408)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "R5" (at 111.3028 86.1822) (layer "F.SilkS") (tstamp aa71025d-b964-4446-812a-d4b5d3cd8da2)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text "DIN" (at 88.835715 44.08) (layer "F.SilkS") (tstamp aab60f28-e37a-4395-9fcf-c2614bfb42f1)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "C6" (at 141.097 83.6422) (layer "F.SilkS") (tstamp aaf72d96-ae92-47f3-b419-71171af20c69)
@@ -6181,11 +6247,8 @@
   (gr_text "5V" (at 152.75 73.491382) (layer "F.SilkS") (tstamp ac80777c-9c8d-4bea-8658-443db451ea64)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "Have a fun build" (at 148.1 95.4) (layer "F.SilkS") (tstamp bae2533d-23a4-4a20-94f2-564a0e722fb6)
-    (effects (font (size 1.2 1.2) (thickness 0.2)))
-  )
-  (gr_text "SERIAL" (at 86.02 33.15) (layer "F.SilkS") (tstamp be481b6b-c839-40bc-ba7e-97ae81590b35)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (gr_text "Install Blackpill\nupside down\ntogether with \nribbon cables\nand trs jack\non this side.\n\n5.1k resistors\nand push button\non the opposite." (at 101.2 55.58) (layer "F.SilkS") (tstamp b49e343f-45e0-4a8f-8ce6-a7aa0167be68)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "VB" (at 137.16 68.8) (layer "F.SilkS") (tstamp c9398a0a-884f-4236-bc89-1838f6f8d6a7)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
@@ -35277,6 +35340,13 @@
       )
     )
   )
+  (group "" (id 09ff1ff1-caf2-41a4-9fda-8dc9e30cf72c)
+    (members
+      4bf9e71d-ae3d-45c5-af50-0f59f811ebc1
+      6f7f6db1-0214-4f8c-a488-a4e34a145a48
+      f8072a27-e3b7-45c6-aa4d-49adc7112791
+    )
+  )
   (group "" (id 1074c357-83f1-444a-9bc5-db52a2d8f85f)
     (members
       36081d5d-b7d1-48c8-8a69-4d9ff82966c8
@@ -35328,6 +35398,19 @@
       ff67e738-f850-456f-80f8-dc7e7bb7bbd1
     )
   )
+  (group "" (id 2b4494bf-0818-4655-9426-54a99aed5567)
+    (members
+      142edceb-a94e-4783-a6e1-0f1d99844c8a
+      195828b1-b90a-4af2-934f-095afa0cde02
+      29ba4353-0bef-4010-9b5f-d98fbc64dac3
+      2d485b69-7b1f-417c-a724-37d9316b4f7d
+      494eca06-2f6f-49bc-b144-0b80af2c2ff1
+      7c70d61b-4732-4b3b-be5b-9d54a7c48a84
+      88fae2df-4c0c-41b4-af56-0d728ad246f8
+      a0297392-d30c-464c-b404-21f8e58b1497
+      c4a8317f-0ec5-42b5-bb36-e799c3b9465f
+    )
+  )
   (group "" (id 2b7f98cb-81ef-4dd8-bc8e-ea326a1b2991)
     (members
       03b3ce17-a450-4c69-a77c-7459a49655f2
@@ -35375,6 +35458,13 @@
       3bebe735-a231-4b89-bc32-9be5235cc8b6
       a3f49193-ca91-4952-9b13-8daaf0230d18
       a49d32a0-d0ba-45c0-818a-cb4e025a22f4
+    )
+  )
+  (group "" (id 5260ece2-b7d5-44f2-a234-28b6a66be84d)
+    (members
+      22f67605-ae4b-4668-bcff-c2f4f9a9a79d
+      48efec4d-0bd0-49ef-8e38-05fc03dc673a
+      c691c8e6-0988-4588-b053-eb90baac3deb
     )
   )
   (group "" (id 533c96e1-28c9-4c55-bb28-4d2e5425ee84)
@@ -35430,6 +35520,13 @@
       9a2e6ffd-26bc-4cb2-92bf-9a4ca7c6a856
     )
   )
+  (group "" (id 6f1ef841-cc74-4642-881d-accbd23cf024)
+    (members
+      bbd44445-5471-48ae-9d8a-4d1b499d3680
+      dd455e21-0e95-494e-b413-6b2b57bf04f9
+      fab607cd-9942-4ab0-8baa-f0cd4ca1e00a
+    )
+  )
   (group "" (id 751e30c8-78a2-43ab-ae36-94403abaf41e)
     (members
       4817069f-538a-428b-bb7d-d2f633c6eeae
@@ -35444,6 +35541,13 @@
       98b77b73-953b-478f-b3e3-da6703cc807c
       aa71025d-b964-4446-812a-d4b5d3cd8da2
       cddfc055-5c02-4091-996c-17a49ba9956b
+    )
+  )
+  (group "" (id 8e277c5e-f1f3-491f-ab7b-e652aaf0cab7)
+    (members
+      17ebddd8-6c5b-4c14-8bc6-01ba28e8e09d
+      23b036dd-d2b0-4da3-afdf-1e4ca7908f1d
+      344c4ae3-6fdf-434b-b0c6-542254c0bce7
     )
   )
   (group "" (id 9a2e6ffd-26bc-4cb2-92bf-9a4ca7c6a856)
@@ -35501,6 +35605,12 @@
       cfbec29e-9fff-4fd8-bc13-8a29309d660d
     )
   )
+  (group "" (id b49bfff7-3731-44a3-b349-fd59d0c4309a)
+    (members
+      4825d1d9-f021-4ba0-9700-b6a308133e3e
+      e5e3d447-fc89-4904-a738-57888923a7a2
+    )
+  )
   (group "" (id b51b3369-9745-4f77-a094-cd44ff0ea6f7)
     (members
       62d83f4a-5b6a-4b1f-94e8-1275dbf95371
@@ -35543,6 +35653,12 @@
       e176d5f5-3ba9-47d4-a8d8-9e2c8f00776f
     )
   )
+  (group "" (id cab0a831-737c-4c9b-b8ef-e36578a45181)
+    (members
+      188c49ef-bacb-40bf-860d-41c294f4b02f
+      3f3e87f6-2660-43c3-9386-8be930b39673
+    )
+  )
   (group "" (id db64ae59-93d5-4044-8b85-73e8a7c7d599)
     (members
       3bea309b-4b33-4a8e-8152-1c8d7793b185
@@ -35558,6 +35674,13 @@
       90931fa1-31f0-43d3-bbf8-0dd64e607037
       b298d6e8-4b66-42c3-a959-8f5054a3896b
       e315cd2d-cc05-478b-b1c0-5f7d80531c54
+    )
+  )
+  (group "" (id e7cd9f5c-63a7-4314-b1ff-8bb0b120bb9f)
+    (members
+      81817e5c-191f-439f-9cb0-a2fb6741093c
+      8eb54c44-a84a-441b-a1f6-a4ab6c5efc94
+      aab60f28-e37a-4395-9fcf-c2614bfb42f1
     )
   )
   (group "" (id e8587461-65cf-4dc3-bd03-cba85e74cf6f)
@@ -35590,6 +35713,13 @@
     (members
       813e6bdc-f8b0-4fd0-a74f-a54f4ea11497
       a2e58461-6d2e-4472-b2ec-ae8b4768423d
+    )
+  )
+  (group "" (id ff11468a-56da-44a0-8028-ccd5666ee156)
+    (members
+      02236539-2413-4d1f-8da2-0598a302b5c2
+      5ee86c4a-e843-4199-9650-c8e2dc58ce3b
+      f0dd2e7c-7b90-4829-bcb4-8b5f303e6600
     )
   )
 )

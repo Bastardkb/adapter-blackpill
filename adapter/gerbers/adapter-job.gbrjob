@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "6.0.0-rc1-bf2b03b42f~115~ubuntu21.10.1"
     },
-    "CreationDate": "2021-12-06T18:49:26+01:00"
+    "CreationDate": "2021-12-08T18:47:44+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "adapter",
       "GUID": "61646170-7465-4722-9e6b-696361645f70",
-      "Revision": "rev?"
+      "Revision": "0.1"
     },
     "Size": {
-      "X": 94.0695,
-      "Y": 67.5032
+      "X": 93.6916,
+      "Y": 67.5765
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,12 +24,12 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
       "TrackToTrack": 0.127,
       "MinLineWidth": 0.2032,
-      "TrackToRegion": 0.508,
-      "RegionToRegion": 0.508
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
     }
   ],
   "FilesAttributes": [

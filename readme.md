@@ -45,3 +45,26 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 * Splithand detection - ok
 * Bootloader bodge - ok, can enter reliably everytime
 * Matrix - ok
+
+## BOM
+
+* Blackpill qty. 2
+    * [AliExpress](https://www.aliexpress.com/item/1005001456186625.html)
+* STM M95 SPI EEPROM (SOP-8 package size) qty. 2 | **Note:** make sure it's no more than 64kbit as QMk does not currently support more than that.
+    * [LCSC Electronics](https://lcsc.com/product-detail/EEPROM_STMicroelectronics-M95640-WMN6TP_C140882.html)
+* 5.1k 1206 Resistor qty. 4
+    * [LCSC Electronics](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.html)
+* TRRS Jack 3.5mm
+    * [LCSC Electronics](https://lcsc.com/product-detail/Pre-ordered-Connectors_XKB-Connectivity-PJ-320E_C2884941.html)
+* Push button 5.1mm x 1.5mm
+    * [LCSC Electronics](https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html)
+
+## JLCPCB Order Form (non default values)
+
+* Different Design: 2
+* PCB Height: 1mm
+
+## Recommended way to attach MCU to adapter
+
+![Header pins long side on bottom](https://cdn.discordapp.com/attachments/747849854276993114/915438746885816401/STM32F411CEU6_WeAct_Black_Pill_V2.png "bottom view of WeAct_Black_Pill")
+![Elite-C adapter looks similar](https://cdn.discordapp.com/attachments/747850923023532073/917082370203607101/76-SWtxD5yNuvbsMLcKAxJII_M5w2juIZuDnQQMsW-VUXTQv-tv4Ju1rIXA-a9Hn6rxcuW34BAAYXKeUi5G3fKMoSbNl2HES9LPlbMYZioP_Ol1HNKip8EF_1Kr8nm6-cMjKs5wC0aen-TuDZjqQE7MhqrMNe8MxqrA0NiTr81869KeJeFpGrAei19xqCjLpO5jcsRDU_FKAc_FC2mRzOteIls9-IShEQoJYTQ0m23tz3L_zWAfeI2bfcWaygDQLRW-s93hR9hg672LtWWHCtBtLXzsoNRuSYkzwj_VyGVLmJC63U21AO5uTM5iUqJ64LGLX700Dk0VgG7dvhEr211VDhxo_Sq6-Cdhb3ZxKNR5VYqu1e4izE0SBZ-jwiAfvB3FijTOnnAJ3jfrkK19S5Lc-pBLlCTArL5Lwt-DhQTADWKQQyoxQ6U-9wcLiQrjq1vwKFxQMuHioHG1Q6iHDdeF6LiTqd4fDLzMYSgdJAEU6itGaK5oYqufAGMyd..png "view of elite-c adapter plate. same idea")

@@ -48,16 +48,15 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 
 ## BOM
 
-* Blackpill qty. 2
-    * [AliExpress](https://www.aliexpress.com/item/1005001456186625.html)
-* STM M95 SPI EEPROM (SOP-8 package size) qty. 2 | **Note:** make sure it's no more than 64kbit as QMk does not currently support more than that.
-    * [LCSC Electronics](https://lcsc.com/product-detail/EEPROM_STMicroelectronics-M95640-WMN6TP_C140882.html)
-* 5.1k 1206 Resistor qty. 4
-    * [LCSC Electronics](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.html)
-* TRRS Jack 3.5mm
-    * [LCSC Electronics](https://lcsc.com/product-detail/Pre-ordered-Connectors_XKB-Connectivity-PJ-320E_C2884941.html)
-* Push button 5.1mm x 1.5mm
-    * [LCSC Electronics](https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html)
+| Qty. |                      Part                      |                                                                Link                                                                |
+| ---- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 2    | WeAct STM32F411 Blackpill                      | [AliExpress](https://www.aliexpress.com/item/1005001456186625.html)                                                                |
+| 2    | 64Kbit STM M95 SPI EEPROM (SOP-8 package size) | [LCSC Electronics](https://lcsc.com/product-detail/EEPROM_STMicroelectronics-M95640-WMN6TP_C140882.html)                           |
+| 4    | 5.1k 1206 Resistors                            | [LCSC Electronics](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.html) |
+| 2    | TRRS Jack 3.5mm                                | [LCSC Electronics](https://lcsc.com/product-detail/Pre-ordered-Connectors_XKB-Connectivity-PJ-320E_C2884941.html)                  |
+| 2    | Push button 5.1mm x 1.5mm                      | [LCSC Electronics](https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html)                  |
+
+ **Note About EEPROM:** QMK can only address 64kbit of memory. So buying anything larger is possible but wasted.
 
 ## JLCPCB Order Form (non default values)
 

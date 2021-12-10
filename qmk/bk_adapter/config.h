@@ -13,9 +13,9 @@
 #define MATRIX_COLS 6
 #define MATRIX_ROWS 10
 #define MATRIX_COL_PINS \
-    { B0, B1, B2, B3, B4, B5 }
+    { B0, B1, B10, B3, B4, B5 }
 #define MATRIX_COL_PINS_RIGHT \
-    { B0, B1, B2, B3, B4, B5 }
+    { B0, B1, B10, B3, B4, B5 }
 
 #define MATRIX_ROW_PINS \
     { B15, A2, B8, A8, B9 }

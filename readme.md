@@ -1,11 +1,11 @@
-## Work in progress.
+# At the time of writing (10th of Dezember 2021) this is still work in progress. There is a likelyhood of errors that have not been found yet. If you like to live on the bleeding edge go ahead if you like security wait until offical confirmation that the adapter works as intended!
 
 Blackpill holder pcb with breakouts for rgb, trackball etc.
 
 Licensed under CERN-OHL-W v2.
-w
 
 Copyright Quentin Lebastard and Stefan Kerkmann 2021.
+
 ## Pin assignments
 
 | Pin No. | Pin  |      Function      |

@@ -65,5 +65,5 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 
 ## Recommended way to attach MCU to adapter
 
-![Header pins long side on bottom](https://cdn.discordapp.com/attachments/747849854276993114/915438746885816401/STM32F411CEU6_WeAct_Black_Pill_V2.png "bottom view of WeAct_Black_Pill")
-![Elite-C adapter looks similar](https://cdn.discordapp.com/attachments/747850923023532073/917082370203607101/76-SWtxD5yNuvbsMLcKAxJII_M5w2juIZuDnQQMsW-VUXTQv-tv4Ju1rIXA-a9Hn6rxcuW34BAAYXKeUi5G3fKMoSbNl2HES9LPlbMYZioP_Ol1HNKip8EF_1Kr8nm6-cMjKs5wC0aen-TuDZjqQE7MhqrMNe8MxqrA0NiTr81869KeJeFpGrAei19xqCjLpO5jcsRDU_FKAc_FC2mRzOteIls9-IShEQoJYTQ0m23tz3L_zWAfeI2bfcWaygDQLRW-s93hR9hg672LtWWHCtBtLXzsoNRuSYkzwj_VyGVLmJC63U21AO5uTM5iUqJ64LGLX700Dk0VgG7dvhEr211VDhxo_Sq6-Cdhb3ZxKNR5VYqu1e4izE0SBZ-jwiAfvB3FijTOnnAJ3jfrkK19S5Lc-pBLlCTArL5Lwt-DhQTADWKQQyoxQ6U-9wcLiQrjq1vwKFxQMuHioHG1Q6iHDdeF6LiTqd4fDLzMYSgdJAEU6itGaK5oYqufAGMyd..png "view of elite-c adapter plate. same idea")
+![Header pins long side on bottom](./assets/stm32_suggested.png "bottom view of WeAct_Black_Pill")
+![Elite-C adapter looks similar](./assets/elite-c_similar_adapter.png "view of elite-c adapter plate. same idea")

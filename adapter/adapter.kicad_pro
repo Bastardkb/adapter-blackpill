@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|116514472|14107035|bc6bb882-6142-47c5-b6d0-958029b1e6b6|9251dbde-749e-471b-9901-f87ca7d1f1f1",
-        "copper_edge_clearance|200020000|14096904|46e3dd80-35e1-484d-ab2b-5438fb628907|3a288415-5968-4a86-95e1-57d0c82b1590"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -443,7 +440,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "adapter.dsn",
       "step": "",
       "vmrl": "",
       "vrml": ""

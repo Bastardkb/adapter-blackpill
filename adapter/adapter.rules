@@ -1,0 +1,139 @@
+
+(rules PCB adapter
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 203.2)
+    (clear 127.2)
+    (clear 101.6 (type smd_to_turn_gap))
+    (clear 31.8 (type smd_smd))
+  )
+  (padstack "Via[0-1]_609.6:304.8_um"
+    (shape
+      (circle F.Cu 609.6 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 609.6 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_609.6:406.4_um"
+    (shape
+      (circle F.Cu 609.6 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 609.6 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_609.6:304.8_um" "Via[0-1]_609.6:304.8_um" default
+  )
+  (via 
+    "Via[0-1]_609.6:406.4_um" "Via[0-1]_609.6:406.4_um" default
+  )
+  (via 
+    "Via[0-1]_609.6:304.8_um-kicad_default" "Via[0-1]_609.6:304.8_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_609.6:406.4_um-kicad_default" "Via[0-1]_609.6:406.4_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_609.6:304.8_um-+5V" "Via[0-1]_609.6:304.8_um" +5V
+  )
+  (via 
+    "Via[0-1]_609.6:406.4_um-+5V" "Via[0-1]_609.6:406.4_um" +5V
+  )
+  (via 
+    "Via[0-1]_609.6:304.8_um-GND" "Via[0-1]_609.6:304.8_um" GND
+  )
+  (via 
+    "Via[0-1]_609.6:406.4_um-GND" "Via[0-1]_609.6:406.4_um" GND
+  )
+  (via_rule
+    default "Via[0-1]_609.6:304.8_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_609.6:304.8_um-kicad_default"
+  )
+  (via_rule
+    +5V "Via[0-1]_609.6:406.4_um-+5V"
+  )
+  (via_rule
+    GND "Via[0-1]_609.6:304.8_um-GND"
+  )
+  (class default
+    "serial_rx_r" "serial_rx_l" "unconnected-(U1-Pad25)" "audio_l" "unconnected-(U2-Pad25)" GND "serial_r" "serial_l"
+    "rgb_r" "cs_trackball_l" "mosi_r" "sck_r" "miso_r" "row1_r" "row2_r" "row3_r"
+    "unconnected-(U1-Pad36)" "row4_r" "col3_r" "row5_r" "col2_r" "unconnected-(U1-Pad38)" "col1_r" "audio_r"
+    "col4_r" "col5_r" "col6_r" "button_user_l" "split_hand_r" "button_user_r" "unconnected-(U1-Pad6)" "unconnected-(U1-Pad24)"
+    "unconnected-(U1-Pad7)" "unconnected-(U1-Pad22)" "unconnected-(U1-Pad21)" +3V3 "row1_l" "row2_l" "row3_l" "unconnected-(U2-Pad36)"
+    "row4_l" "col3_l" "col2_l" "col1_l" "dfu_bootloader_bodge_l" "mosi_l" "miso_l" "sck_l"
+    "cs_trackball_r" "row6_r" "col4_l" "col5_l" "col6_l" "rgb_l" "unconnected-(U1-Pad30)" "split_hand_l"
+    "unconnected-(U2-Pad24)" "unconnected-(U1-Pad37)" "unconnected-(U2-Pad22)" "unconnected-(U2-Pad21)" "unconnected-(U2-Pad6)" "row6_l" "scl_r" "unconnected-(U2-Pad20)"
+    "unconnected-(U1-Pad8)" "unconnected-(U1-Pad9)" "unconnected-(U2-Pad8)" "unconnected-(U2-Pad9)" "sda_r" "scl_l" "sda_l" "unconnected-(U2-Pad30)"
+    "unconnected-(U2-Pad37)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class +5V
+    +5V
+    (clearance_class +5V)
+    (via_rule +5V)
+    (rule
+      (width 406.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 406.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

@@ -65,7 +65,7 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 
 ## Recommended way to attach MCU to adapter
 
-![Header pins long side on bottom](./assets/stm32_suggested.png "bottom view of WeAct_Black_Pill")
+![Header pins long side on bottom](./assets/blackpillinstallation.jpg "bottom view of WeAct_Black_Pill")
 ![Elite-C adapter looks similar](./assets/elite-c_similar_adapter.png "view of elite-c adapter plate. same idea")
 
 [1]: <https://www.aliexpress.com/item/1005001456186625.html> "WeAct STM32F411 Blackpill"

@@ -66,7 +66,7 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 ## Recommended way to attach MCU to adapter
 
 ![Header pins long side on bottom](./assets/blackpillinstallation.jpg "bottom view of WeAct_Black_Pill")
-![Elite-C adapter looks similar](./assets/elite-c_similar_adapter.png "view of elite-c adapter plate. same idea")
+![Adapter side showing resistors and button](./assets/adapter_resistor_installation.jpg "view of blackpill adapter plate.")
 
 [1]: <https://www.aliexpress.com/item/1005001456186625.html> "WeAct STM32F411 Blackpill"
 [2]: <https://lcsc.com/product-detail/EEPROM_STMicroelectronics-M95640-WMN6TP_C140882.html> "64Kbit STM M95 SPI EEPROM (SOP-8 package size)"

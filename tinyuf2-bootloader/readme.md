@@ -13,3 +13,8 @@ In case you want to update or overwrite TinyUF2 again:
 2. Copy `tinyuf2-unlocker-stm32f411.uf2` into the Charybdis folder
 3. The STM32F411 will automatically reboot into STM32 DFU bootloader
 4. Update or overwrite the TinyUF2 bootloader with `dfu-util`
+
+## Sources
+
+* [tinyuf2-unlocker](https://github.com/KarlK90/tinyuf2-unlocker)
+* [tinyuf2 with BastardKB modifications](https://github.com/KarlK90/tinyuf2/tree/feature/bastardkb-bootloaders)

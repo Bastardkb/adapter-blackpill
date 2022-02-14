@@ -28,8 +28,8 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 
 |   event   |    channel / stream     |       usage        |
 | --------- | ----------------------- | ------------------ |
-| I2C1_RX   | DMA1 Stream 0 Channel 1 | not used           |
-| I2C1_TX   | DMA1 Stream 6 Channel 1 | not used           |
+| I2C1_RX   | DMA1 Stream 0 Channel 1 | available          |
+| I2C1_TX   | DMA1 Stream 6 Channel 1 | available          |
 | SPI1_RX   | DMA2 Stream 0 Channel 3 | EEPROM and PMW3360 |
 | SPI1_TX   | DMA2 Stream 3 Channel 3 | EEPROM and PMW3360 |
 | TIM2_UP   | DMA1 Stream 1 Channel 3 | WS2812 PWM         |
@@ -52,7 +52,7 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 | ---- | ---------------------------------------------- | ----------------------|
 | 2    | WeAct STM32F411 Blackpill                      | [AliExpress][1]       |
 | 2    | 64Kbit STM M95 SPI EEPROM (SOP-8 package size) | [LCSC Electronics][2] |
-| 6    | 5.1k 1206 Resistors                            | [LCSC Electronics][3] |
+| 10   | 5.1k 1206 Resistors                            | [LCSC Electronics][3] |
 | 2    | TRRS Jack 3.5mm                                | [LCSC Electronics][4] |
 | 2    | Push button 5.1mm x 1.5mm                      | [LCSC Electronics][5] |
 

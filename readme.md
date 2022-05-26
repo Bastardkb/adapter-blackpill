@@ -52,11 +52,12 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 | ---- | ---------------------------------------------- | ----------------------|
 | 2    | WeAct STM32F411 Blackpill                      | [AliExpress][1]       |
 | 2    | 64Kbit STM M95 SPI EEPROM (SOP-8 package size) | [LCSC Electronics][2] |
-| 6    | 5.1k 1206 Resistors                            | [LCSC Electronics][3] |
-| 2    | TRRS Jack 3.5mm                                | [LCSC Electronics][4] |
+| 6/8  | 5.1k 1206 Resistors                            | [LCSC Electronics][3] |
+| 2    | TRRS Jack 3.5mm PJ-320A                        | [LCSC Electronics][4] |
 | 2    | Push button 5.1mm x 1.5mm                      | [LCSC Electronics][5] |
 
  **Note About EEPROM:** QMK can only address 64kbit of memory. So buying anything larger is possible but wasted.
+ **Note About Resistors:** 8 for RBG.
 
 ## JLCPCB Order Form (non default values)
 
@@ -71,5 +72,5 @@ Copyright Quentin Lebastard and Stefan Kerkmann 2021.
 [1]: <https://www.aliexpress.com/item/1005001456186625.html> "WeAct STM32F411 Blackpill"
 [2]: <https://lcsc.com/product-detail/EEPROM_STMicroelectronics-M95640-WMN6TP_C140882.html> "64Kbit STM M95 SPI EEPROM (SOP-8 package size)"
 [3]: <https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-1206W4F5101T5E_C26033.html> "5.1k 1206 Resistors"
-[4]: <https://lcsc.com/product-detail/Pre-ordered-Connectors_XKB-Connectivity-PJ-320E_C2884941.html> "TRRS Jack 3.5mm"
+[4]: <https://lcsc.com/product-detail/Audio-Connectors_XKB-Connectivity-PJ-320A_C2884926.html> "TRRS Jack 3.5mm"
 [5]: <https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-B-A-B_C318884.html> "Push button 5.1mm x 1.5mm"
